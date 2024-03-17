@@ -116,7 +116,7 @@ animation-play-state: paused;
     text-transform:uppercase;
     color: white;
     margin-top: 10px; 
-    width: 350px;
+    width: fit-content;
 }
 #front_offer{
     color: white;
