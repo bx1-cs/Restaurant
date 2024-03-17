@@ -84,7 +84,7 @@ text-align: center;
     padding-left: 60px;
 }
 #info_res{
-    width: 500px;
+    max-width: 500px;
 }
 #info_res p{
     margin-bottom: 40px;
@@ -100,8 +100,8 @@ text-align: center;
     color: rgb(59, 53, 53);
 }
 #photo_res img{
-    border-radius: 100px;
-    width: 500px;
+    border-radius: 60px;
+    width: 300px;
 }
 #order ,#join button{
     background-color: yellow;
@@ -207,6 +207,7 @@ text-align: center;
 #S4_two{
     display: flex;
     gap: 40px;
+    justify-content:center;
     flex-wrap: wrap;
     padding: 10px;
     box-shadow: -4px -12px 20px 0px rgb(230, 223, 238) ;
